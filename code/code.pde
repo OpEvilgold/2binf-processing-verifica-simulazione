@@ -16,6 +16,7 @@ void setup() {
 }
 
 void draw() {
+  fillBackground--;
   background(0, 0, fillBackground);
   lights();
   ron.disegna( width * 0.1, height/2);
