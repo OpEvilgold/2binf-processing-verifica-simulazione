@@ -24,7 +24,7 @@ void draw() {
 
   if (mousePressed) {
     ron.confundo();
-  }
+  }else{ron.personaggio.rotateY(radians(90));}
 }
 
 class Personaggio
